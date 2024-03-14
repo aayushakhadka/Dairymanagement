@@ -23,14 +23,17 @@
     </style>
 </head>
 
-<body class="bg-gradient-to-b from-purple-400 to-indigo-600">
-    <div class="flex flex-col items-center justify-center h-screen">
-        <h1 class="font-bold text-4xl text-white mb-8">Dairy Management</h1>
-        <div class="flex space-x-4">
-            <a href="/login" class="bg-green-500 hover:bg-green-600 text-white py-3 px-6 rounded-full shadow-md transition duration-300">Login</a>
-            <a href="/register" class="bg-yellow-500 hover:bg-yellow-600 text-white py-3 px-6 rounded-full shadow-md transition duration-300">Register</a>
+<body class="bg-gradient-to-br from-amber-900 to-amber-300 flex items-center justify-center h-screen">
+
+    <div class=" flex items-center justify-center h-[screen]">
+        <div class="flex flex-col items-center justify-center bg-lime-100 h-[20rem] p-[3rem] rounded-tl-[3rem] rounded-br-[3rem] shadow-lg">
+            <h1 class="font-bold text-4xl text-black mb-8 ">Dairy Management</h1>
+            <div class="flex space-x-4">
+                <a href="/login" class="bg-green-500 hover:bg-green-600 text-white py-3 px-6 rounded-full shadow-md transition duration-300">Login</a>
+                <a href="/register" class="bg-yellow-500 hover:bg-yellow-600 text-white py-3 px-6 rounded-full shadow-md transition duration-300">Register</a>
+            </div>
         </div>
-    </div>
+        <div>
 </body>
 </body>
 
