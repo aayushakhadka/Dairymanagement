@@ -1,4 +1,7 @@
-<x-app-layout>
+    @extends('layouts.app')
+    @section('content')
+
+    </section>
     <x-slot name="header">
         <h2 class="font-semibold text-xl text-gray-800 leading-tight">
             {{ __('Dashboard') }}
@@ -13,8 +16,13 @@
                 </div>
             </div>
         </div>
-        <div class="flex flex-col items-center justify-center mt-[4rem]">
-            <a class="h-[3rem] w-[8rem] bg-gray-100 flex items-center justify-center rounded-[1rem] text-black shadow-md shadow-black" href="/details">Details</a>
+
+        <div class="flex items-center justify-center gap-4 ">
+            <a href="/details">Details</a>
+            <a href="/orders">Order</a>
+            <a href="/payments">Payments</a>
+
         </div>
     </div>
-</x-app-layout>
+
+    @endsection
